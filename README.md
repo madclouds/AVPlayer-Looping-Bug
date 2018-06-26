@@ -71,8 +71,9 @@ Below is the log output when testing with a bluetooth device:
 2018-06-26 13:31:36.921186-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.815188, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:37.121387-0700 AVPlayer Loop[12955:11069115] Current Progress: 12.015362, Loop Start: 10.000000, Loop End: 12.000000
 
-//[From Erik]: Current time is > 12, so seekToTime back to 10.0:
 //[From Erik]: This is where the bluetooth connection succeeds and starts playing audio, notice the current progress is less than 10 even though we told the AVPlayer to seekToTime: 10.0
+
+//[From Erik]: Current time is > 12, so seekToTime back to 10.0:
 2018-06-26 13:31:37.321117-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.996465, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:37.521185-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.047198, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:37.721133-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.227329, Loop Start: 10.000000, Loop End: 12.000000
