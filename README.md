@@ -5,7 +5,8 @@ Below is the log output when testing with a bluetooth device:
 
 
 ```
-//Looping has started correctly and the seek time is > 10.0
+
+//[From Erik]: Looping has started correctly and the seek time is > 10.0
 2018-06-26 13:31:26.321393-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.004689, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:26.521509-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.204804, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:26.721350-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.404648, Loop Start: 10.000000, Loop End: 12.000000
@@ -17,7 +18,8 @@ Below is the log output when testing with a bluetooth device:
 2018-06-26 13:31:27.921574-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.604799, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:28.121450-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.804676, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:28.321249-0700 AVPlayer Loop[12955:11069115] Current Progress: 12.004502, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is > 12, so seekToTime back to 10.0:
+
+//[From Erik]: Current time is > 12, so seekToTime back to 10.0:
 2018-06-26 13:31:28.521203-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.049851, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:28.721251-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.249900, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:28.921553-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.450188, Loop Start: 10.000000, Loop End: 12.000000
@@ -29,7 +31,8 @@ Below is the log output when testing with a bluetooth device:
 2018-06-26 13:31:30.121239-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.649826, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:30.321717-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.850288, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:30.521370-0700 AVPlayer Loop[12955:11069115] Current Progress: 12.049982, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is > 12, so seekToTime back to 10.0:
+
+//[From Erik]: Current time is > 12, so seekToTime back to 10.0:
 2018-06-26 13:31:30.722138-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.032112, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:30.921311-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.231285, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:31.121175-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.431174, Loop Start: 10.000000, Loop End: 12.000000
@@ -41,7 +44,8 @@ Below is the log output when testing with a bluetooth device:
 2018-06-26 13:31:32.322129-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.632075, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:32.521207-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.831166, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:32.722254-0700 AVPlayer Loop[12955:11069115] Current Progress: 12.032190, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is > 12, so seekToTime back to 10.0:
+
+//[From Erik]: Current time is > 12, so seekToTime back to 10.0:
 2018-06-26 13:31:32.921587-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.034231, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:33.121220-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.233883, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:33.321310-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.433963, Loop Start: 10.000000, Loop End: 12.000000
@@ -53,7 +57,8 @@ Below is the log output when testing with a bluetooth device:
 2018-06-26 13:31:34.522216-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.634816, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:34.721256-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.833858, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:34.921361-0700 AVPlayer Loop[12955:11069115] Current Progress: 12.033938, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is > 12, so seekToTime back to 10.0:
+
+//[From Erik]: Current time is > 12, so seekToTime back to 10.0:
 2018-06-26 13:31:35.121125-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.015147, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:35.321050-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.215084, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:35.521132-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.415164, Loop Start: 10.000000, Loop End: 12.000000
@@ -65,25 +70,26 @@ Below is the log output when testing with a bluetooth device:
 2018-06-26 13:31:36.721149-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.615157, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:36.921186-0700 AVPlayer Loop[12955:11069115] Current Progress: 11.815188, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:37.121387-0700 AVPlayer Loop[12955:11069115] Current Progress: 12.015362, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is > 12, so seekToTime back to 10.0:
-//This is where the bluetooth connection succeeds and starts playing audio, notice the current progress is less than 10 even though we told the AVPlayer to seekToTime: 10.0
+
+//[From Erik]: Current time is > 12, so seekToTime back to 10.0:
+//[From Erik]: This is where the bluetooth connection succeeds and starts playing audio, notice the current progress is less than 10 even though we told the AVPlayer to seekToTime: 10.0
 2018-06-26 13:31:37.321117-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.996465, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:37.521185-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.047198, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:37.721133-0700 AVPlayer Loop[12955:11069115] Current Progress: 10.227329, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:37.921100-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.895198, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is < loop start, so seekToTime back to 10.0:
+//[From Erik]: Current time is < loop start, so seekToTime back to 10.0:
 2018-06-26 13:31:38.121977-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.544086, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is < loop start, so seekToTime back to 10.0:
+//[From Erik]: Current time is < loop start, so seekToTime back to 10.0:
 2018-06-26 13:31:38.321084-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.557441, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is < loop start, so seekToTime back to 10.0:
+//[From Erik]: Current time is < loop start, so seekToTime back to 10.0:
 2018-06-26 13:31:38.521195-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.548574, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is < loop start, so seekToTime back to 10.0:
+//[From Erik]: Current time is < loop start, so seekToTime back to 10.0:
 2018-06-26 13:31:38.721413-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.562998, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is < loop start, so seekToTime back to 10.0:
+//[From Erik]: Current time is < loop start, so seekToTime back to 10.0:
 2018-06-26 13:31:38.921237-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.507425, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is < loop start, so seekToTime back to 10.0:
+//[From Erik]: Current time is < loop start, so seekToTime back to 10.0:
 2018-06-26 13:31:39.121168-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.544820, Loop Start: 10.000000, Loop End: 12.000000
-//Current time is < loop start, so seekToTime back to 10.0:
+//[From Erik]: Current time is < loop start, so seekToTime back to 10.0:
 2018-06-26 13:31:39.321309-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.535962, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:39.521277-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.503738, Loop Start: 10.000000, Loop End: 12.000000
 2018-06-26 13:31:39.721151-0700 AVPlayer Loop[12955:11069115] Current Progress: 9.517862, Loop Start: 10.000000, Loop End: 12.000000
